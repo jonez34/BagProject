@@ -10,7 +10,7 @@ package bagproject;
  * @author hjones2368
  */
 public class Node {
-    private String data; //Entry in Bag
+    public String data; //Entry in Bag
     public Node next; //Link to next node
     
     public Node(String dataPortion){

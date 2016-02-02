@@ -25,13 +25,18 @@ public class BagProject {
         myBag.add("there");
         myBag.add("its");
         myBag.add("me");
-        myBag.remove();
-        myBag.remove();
-        myBag.remove();
-        myBag.remove();
-        myBag.remove();
-        myBag.remove();
-        myBag.remove();
+        System.out.println(myBag);
+        myBag.removeItem("you");
+        System.out.println(myBag);
+        myBag.removeItem("me");
+        System.out.println(myBag);
+        //myBag.remove();
+        //myBag.remove();
+       // myBag.remove();
+       //myBag.remove();
+       // myBag.remove();
+        //myBag.remove();
+       // myBag.remove();
         
     }
     public static void TestStringBag(){
