@@ -18,25 +18,7 @@ public class BagProject {
         //TestIntegerBag();
         //TestStringBag();
         
-        LinkedBag myBag = new LinkedBag();
-        myBag.add("Hello");
-        myBag.add("are");
-        myBag.add("you");
-        myBag.add("there");
-        myBag.add("its");
-        myBag.add("me");
-        System.out.println(myBag);
-        myBag.removeItem("you");
-        System.out.println(myBag);
-        myBag.removeItem("me");
-        System.out.println(myBag);
-        //myBag.remove();
-        //myBag.remove();
-       // myBag.remove();
-       //myBag.remove();
-       // myBag.remove();
-        //myBag.remove();
-       // myBag.remove();
+        
         
     }
     public static void TestStringBag(){
@@ -93,5 +75,26 @@ public class BagProject {
     
     
     }
+    public static void TestLinkedBag(){
+    LinkedBag myBag = new LinkedBag();
+        myBag.add("Hello");
+        myBag.add("are");
+        myBag.add("you");
+        myBag.add("there");
+        myBag.add("its");
+        myBag.add("me");
+        System.out.println(myBag);
+        myBag.removeItem("you");
+        System.out.println(myBag);
+        myBag.removeItem("me");
+        System.out.println(myBag);
+        //myBag.remove();
+        //myBag.remove();
+       // myBag.remove();
+       //myBag.remove();
+       // myBag.remove();
+        //myBag.remove();
+       // myBag.remove();
+}
     
 }
