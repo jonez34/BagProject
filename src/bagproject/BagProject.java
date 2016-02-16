@@ -17,9 +17,22 @@ public class BagProject {
     public static void main(String[] args) {
         //TestIntegerBag();
         //TestStringBag();
+       System.out.println(sumOf(2));
+        
+       
         
         
         
+    }
+    public static int sumOf(int n){
+        int sum;
+        if(n == 1){
+            sum = 1;
+        }else{
+            sum = sumOf(n -1) + n;
+           
+        } 
+        return sum; 
     }
     public static void TestStringBag(){
         Bag<String> myBag = new Bag<String>();
@@ -74,6 +87,13 @@ public class BagProject {
         myBag.removeItem(13);
     
     
+    }
+    public static void TestLinkedStatck(){
+        LinkedStack myStack = new LinkedStack();
+        myStack.Push("dear");
+        myStack.Push(" mr. ");
+        myStack.Push("potter");
+        System.out.println(myStack);
     }
     public static void TestLinkedBag(){
     LinkedBag myBag = new LinkedBag();

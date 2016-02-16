@@ -23,7 +23,33 @@ public class LinkedStack {
         
     }
     public String Pop(){
-        
-        return "";
+        if(top==null){
+            System.out.println("Nothing to Pop");
+            return "";
+        }
+        String popData = top.data;
+        top = top.next;
+        return popData;
     }
+    public String Peek(){
+        String popData = top.data;
+        return popData;
+    }
+    public String toString(){
+        Node it = new Node("");
+        it =top;
+        String result = "";
+        while(it!=null){
+            result = result + " " + it.data;
+            it = it.next;
+        }
+        
+        
+        return result;
+    
+    
+    }
+    
+    
+
 }
